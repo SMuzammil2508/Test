@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='team.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Meet Our Team</h1>
+    </header>
+
+    <section class="team-container">
+        <!-- Example team member card -->
+        <div class="team-member">
+            <img src="{{ url_for('static', filename='images/member1.jpg') }}" alt="Member 1">
+            <h2>Muzammil Shaikh</h2>
+            <p>Backend Developer</p>
+        </div>
+
+        <div class="team-member">
+            <img src="{{ url_for('static', filename='images/member2.jpg') }}" alt="Member 2">
+            <h2>Pranav</h2>
+            <p>UI/UX Designer</p>
+        </div>
+
+        <div class="team-member">
+            <img src="{{ url_for('static', filename='images/member3.jpg') }}" alt="Member 3">
+            <h2>Shivam</h2>
+            <p>Frontend Developer</p>
+        </div>
+
+        <!-- Add more team members here -->
+    </section>
+</body>
+</html>
