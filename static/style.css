@@ -1,0 +1,19 @@
+    /* Base button style */
+    .glow-btn {
+        padding: 12px 24px;
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+        background-color: #007BFF;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: box-shadow 0.3s ease, transform 0.2s ease;
+    }
+
+    /* Glow effect when pressed */
+    .glow-btn:active {
+        box-shadow: 0 0 20px #00ffcc, 0 0 40px #00ffcc, 0 0 60px #00ffcc;
+        transform: scale(0.95);
+        /* slight press effect */
+    }
